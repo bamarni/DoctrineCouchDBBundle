@@ -235,6 +235,7 @@ class Configuration implements ConfigurationInterface
             ->end()
             ->children()
                 ->scalarNode('type')->defaultValue('array')->end()
+                ->scalarNode('id')->end()
                 ->scalarNode('host')->end()
                 ->scalarNode('port')->end()
                 ->scalarNode('instance_class')->end()
